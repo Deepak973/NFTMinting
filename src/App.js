@@ -4,7 +4,7 @@ import axios from "axios";
 import { ethers } from "ethers";
 import Poo from "./artifacts/contracts/MinftNft.sol/MintNft.json";
 
-const Poo_contract_address = "0x7b86cEeE7eFF80693F4B2a98dA209eff29531D50";
+const Poo_contract_address = "0x619AE6538Afb1fb0275583791F6F2D9faa278B42";
 
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 const signer = provider.getSigner();
